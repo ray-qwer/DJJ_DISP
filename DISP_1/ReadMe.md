@@ -3,27 +3,26 @@
 ## border detection
 
 
-||
 
 |origin image|**laplace** |
 | -------- | -------- |
-|![](https://i.imgur.com/fgTRwKa.png =256x256)|![](https://i.imgur.com/zPYE75J.png =256x)|
+|<img src="https://i.imgur.com/fgTRwKa.png" width="256px" height="256px">|<img src="https://i.imgur.com/zPYE75J.png" width="256px" height="256px">|
 | **diff horizon** | **diff vertical** | 
-| ![](https://i.imgur.com/P5fBIe0.png =256x)| ![](https://i.imgur.com/0XS0ZXX.png =256x)
+| <img src="https://i.imgur.com/P5fBIe0.png" width="256px" height="256px">| <img src="https://i.imgur.com/0XS0ZXX.png" width="256px" height="256px">
 | **sobel 0** | **sobel 90** |
-| ![](https://i.imgur.com/MgZUdk5.png =256x) | ![](https://i.imgur.com/yMymacf.png =256x)|
+| <img src="https://i.imgur.com/MgZUdk5.png" width="256px" height="256px"> | <img src="https://i.imgur.com/yMymacf.png" width="256px" height="256px">|
 | **sobel 45** | **sobel 135** |
-|![](https://i.imgur.com/OpyxbqY.png =256x) | ![](https://i.imgur.com/NZSYUJD.png =256x)|
+|<img src="https://i.imgur.com/OpyxbqY.png" width="256px" height="256px"> | <img src="https://i.imgur.com/NZSYUJD.png" width="256px" height="256px">|
 
 ## brightness adjustment
 
 origin:
-![](https://i.imgur.com/x50hrjv.jpg =256x)
+<img src="https://i.imgur.com/x50hrjv.jpg" width="256px" height="256px">
 
 | | gray scale| color image|
 |-- | - | - |
-|lighten |![](https://i.imgur.com/PyQ4FBM.png =256x)|![](https://i.imgur.com/nXJJ3Tf.png =256x)|
-| darken|![](https://i.imgur.com/j4yBUYk.png =256x)|![](https://i.imgur.com/hAtsOJy.png =256x)|
+|lighten |<img src="https://i.imgur.com/PyQ4FBM.png" width="256px" height="256px">|<img src="https://i.imgur.com/nXJJ3Tf.png" width="256px" height="256px">|
+| darken|<img src="https://i.imgur.com/j4yBUYk.png" width="256px" height="256px">|<img src="https://i.imgur.com/hAtsOJy.png" width="256px" height="256px">)|
 
 ## NRMSE and PSNR
 
