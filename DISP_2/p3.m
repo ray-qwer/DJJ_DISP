@@ -1,0 +1,25 @@
+t = [-30:100];
+x = [zeros(1,20), ones(1,31), zeros(1,29), ones(1,31), zeros(1,20)];
+an = 0.2;
+noise = an* (rand(1,131) -0.5);
+x1 = x + noise;
+subplot(4,1,1);
+plot(t, x);
+subplot(4,1,2);
+plot(t, x1);
+
+sigma1 = 0.05;
+sigma2 = 5;
+n = [-5:5];
+c1 = -1/sum(exp(-sigma1*abs(n)));
+hn1 = sign(n).*exp(-sigma1*(abs(n)));
+c2 = -1/sum(exp(-sigma2*abs(n)));
+hn2 = sign(n).*exp(-sigma2*(abs(n)));
+% subplot(4,1,3);
+% plot(n, hn);
+y1 = conv(x1, hn1, 'same');
+subplot(4,1,3);
+plot(t, y1);
+y2 = conv(x1, hn2, 'same');
+subplot(4,1,4);
+plot(t, y2);
