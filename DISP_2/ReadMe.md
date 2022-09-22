@@ -54,3 +54,5 @@ where $C = 1/\Sigma^{L}_{n=1} e^{-\sigma |n|}$
      
 need to padding the edge, or take "valid" when do convolution.
 
+## others
+you can access [colab notebook](https://colab.research.google.com/drive/1ih939qGR1Iojrc502F7O0FxGSGssBLwz?usp=sharing) if you want python code.
